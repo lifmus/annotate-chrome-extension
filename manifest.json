@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Annotate",
+  "description": "Annotates websites with different layers of comments",
+  "version": "0.0.1",
+
+  "content_security_policy": "script-src 'self' http://localhost; object-src 'self'",
+
+  "browser_action": {
+    "default_icon": "annotate.png",
+    "default_popup": "annotation.html"
+  },
+  "permissions": [
+    "http://localhost:3000/",
+    "tabs"
+  ]
+}
