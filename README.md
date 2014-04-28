@@ -1,0 +1,1 @@
+Compansion chrome extension to go with the rails api for Annotate
