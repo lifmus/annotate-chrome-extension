@@ -13,10 +13,10 @@ $(document).ready(function () {
             name: 'frame1',
             id: 'frame1',
             width: '100%',
-            height: '100%',
+            height: '400px',
             frameborder: '0',
             src: 'http://localhost:3000/comments?web_page=' + fullURL
-        }).appendTo('body');
+        }).appendTo('#comments-iframe');
 
         // $.get('http://localhost:3000/comments?web_page=' + fullURL, 
         //   function(returnedData){

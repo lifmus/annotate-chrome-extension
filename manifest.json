@@ -14,5 +14,9 @@
   "permissions": [
     "http://localhost:3000/",
     "tabs"
-  ]
+  ],
+  "background": {
+    "scripts": ["jquery.min.js", "background.js"]//,
+    // "persistent": false
+    }
 }
