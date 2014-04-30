@@ -14,9 +14,15 @@
   "permissions": [
     "http://localhost:3000/",
     "tabs"
-  ],
-  "background": {
-    "scripts": ["jquery.min.js", "background.js"]//,
-    // "persistent": false
-    }
+  ]//,
+  // "background": {
+  //   "scripts": ["jquery.min.js", "background.js"],
+  //   "persistent": false
+  //   }
+  // "content_scripts": [
+  //     {
+  //       "matches": ["*://*/*"],
+  //       "js": ["page_load.js"]
+  //     }
+  //   ]
 }
